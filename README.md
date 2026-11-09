@@ -1,3 +1,4 @@
+
 <h3 align="center">Hi! Nice to see you around</h3>
 <h1 align="center">I'm Davide Minelli :)</h1>
 <p align="center"><b>Platform / DevOps Engineer · Technical Lead</b></p>
@@ -19,11 +20,15 @@ Now a lot of my time goes into container and supply-chain security — smaller i
 CVEs, fewer surprises.
 
 I'm also an early (but careful) fan of AI in engineering: I write custom Claude skills and
-MCP servers, and a human always has the last word.
+MCP servers, and a human always has the last word. Lately, I've been exploring AI engineering
+and AWS confidential computing, including a hands-on project with **AWS Nitro Enclaves**.
 
-- 🔭 Right now I'm deep into **container security** and **GitOps with Flux**
-- 🌱 I'm studying for **AWS Solutions Architect Associate**
-- 💸 My side projects run on AWS for **€0 a month**. Small and cheap is a feature
+- 🔭 Right now I'm deep into **container security**, **GitOps with Flux** and **DevSecOps**
+- 🤖 Exploring **AI engineering**, agent workflows and MCP integrations
+- 🔐 Building hands-on AWS security projects with **KMS** and **Nitro Enclaves**
+- 🎓 **AWS Certified Solutions Architect – Associate**
+- 🌱 Preparing for **AWS Certified Generative AI Developer – Professional (AIP-C01)**
+- 💸 I enjoy building small, cost-conscious AWS projects. Keeping infrastructure lean is a feature
 - 🦖 My contact card has a tiny dino game: [minelli-d.co.uk](https://minelli-d.co.uk)
 
 ### 🧰 What I work with
@@ -33,11 +38,17 @@ MCP servers, and a human always has the last word.
   <img src="https://skillicons.dev/icons?i=nestjs,nodejs,ts,java,spring,python,rabbitmq,redis,postgres,elasticsearch&theme=dark" alt="NestJS, Node.js, TypeScript, Java, Spring, Python, RabbitMQ, Redis, PostgreSQL, Elasticsearch">
 </p>
 
-Plus **Flux**, **Harbor**, **Trivy**, **TFLint**, **Kibana** and **Claude Code + MCP**.
+Plus **Flux**, **Harbor**, **Trivy**, **TFLint**, **Kibana**, **Claude Code + MCP**, **AWS KMS** and **AWS Nitro Enclaves**.
 
 ### 🚀 Things I've built
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/Minelli-D/Confidential-Data-Processing"><b>🔐 confidential-data-processing</b></a><br>
+      Confidential computing on AWS using **Nitro Enclaves**. Data is encrypted locally before being uploaded to S3. AWS KMS releases the data key only after hardware attestation and PCR0 verification. Built with Terraform and Python, and successfully executed inside a real AWS Nitro Enclave using synthetic payroll data.
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Minelli-D/ai-news-radar"><b>📡 ai-news-radar</b></a><br>
