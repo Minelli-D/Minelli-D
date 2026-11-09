@@ -9,15 +9,10 @@
   <img src="https://img.shields.io/badge/Brindisi%2C%20Italy-202f36?style=for-the-badge&logo=googlemaps&logoColor=93d333" alt="Brindisi, Italy">
 </p>
 
-I've been writing software for about 7 years, and for the last 5 I've mostly lived on the
+I've been writing software for about 7 years, and for the last 4 I've mostly lived on the
 platform side: CI/CD, containers, Kubernetes and cloud infrastructure. These days I lead a small
 engineering team in Brindisi, and I look after our infrastructure and technical decisions from
 start to finish.
-
-A few things I'm proud of: I moved the whole company to **GitLab**, replaced Tekton with
-**GitLab CI + Flux** for GitOps on Kubernetes, and set up **Harbor** as our private registry.
-Now a lot of my time goes into container and supply-chain security — smaller images, fewer
-CVEs, fewer surprises.
 
 I'm also an early (but careful) fan of AI in engineering: I write custom Claude skills and
 MCP servers, and a human always has the last word. Lately, I've been exploring AI engineering
@@ -46,7 +41,7 @@ Plus **Flux**, **Harbor**, **Trivy**, **TFLint**, **Kibana**, **Claude Code + MC
   <tr>
     <td colspan="2" valign="top">
       <a href="https://github.com/Minelli-D/Confidential-Data-Processing"><b>🔐 confidential-data-processing</b></a><br>
-      Confidential computing on AWS using **Nitro Enclaves**. Data is encrypted locally before being uploaded to S3. AWS KMS releases the data key only after hardware attestation and PCR0 verification. Built with Terraform and Python, and successfully executed inside a real AWS Nitro Enclave using synthetic payroll data.
+      Confidential computing on AWS using <b>Nitro Enclaves</b>. Data is encrypted locally before being uploaded to S3. AWS KMS releases the data key only after hardware attestation and PCR0 verification. Built with Terraform and Python, and successfully executed inside a real AWS Nitro Enclave using synthetic payroll data.
     </td>
   </tr>
   <tr>
