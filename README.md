@@ -39,13 +39,13 @@ Plus **Flux**, **Harbor**, **Trivy**, **TFLint**, **Kibana**, **Claude Code + MC
 
 <table>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/Minelli-D/Wattson-Agent"><b>🧠 Wattson Agent</b></a><br>
       A personal engineering agent proof of concept. It asks in the terminal, collects read-only evidence from git and Kubernetes, and runs Claude Code only after you approve the exact prompt. Built with Strands Agents and A2A, with Cedar policies, a small prompt-injection classifier, and OpenTelemetry dashboards.
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%"" valign="top">
       <a href="https://github.com/Minelli-D/Confidential-Data-Processing"><b>🔐 confidential-data-processing</b></a><br>
       Confidential computing on AWS using <b>Nitro Enclaves</b>. Data is encrypted locally before being uploaded to S3. AWS KMS releases the data key only after hardware attestation and PCR0 verification. Built with Terraform and Python, and successfully executed inside a real AWS Nitro Enclave using synthetic payroll data.
     </td>
