@@ -19,7 +19,7 @@ MCP servers, and a human always has the last word. Lately, I've been exploring A
 and AWS confidential computing, including a hands-on project with **AWS Nitro Enclaves**.
 
 - 🔭 Right now I'm deep into **container security**, **GitOps with Flux** and **DevSecOps**
-- 🤖 Exploring **AI engineering**, agent workflows and MCP integrations
+- 🤖 Building AI agents with **Strands Agents**, **A2A** and **Cedar** policies (see Wattson Agent below)
 - 🔐 Building hands-on AWS security projects with **KMS** and **Nitro Enclaves**
 - 🎓 **AWS Certified Solutions Architect – Associate**
 - 🌱 Preparing for **AWS Certified Generative AI Developer – Professional (AIP-C01)**
@@ -38,6 +38,12 @@ Plus **Flux**, **Harbor**, **Trivy**, **TFLint**, **Kibana**, **Claude Code + MC
 ### 🚀 Things I've built
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/Minelli-D/Wattson-Agent"><b>🧠 Wattson Agent</b></a><br>
+      A personal engineering agent proof of concept. It asks in the terminal, collects read-only evidence from git and Kubernetes, and runs Claude Code only after you approve the exact prompt. Built with Strands Agents and A2A, with Cedar policies, a small prompt-injection classifier, and OpenTelemetry dashboards.
+    </td>
+  </tr>
   <tr>
     <td colspan="2" valign="top">
       <a href="https://github.com/Minelli-D/Confidential-Data-Processing"><b>🔐 confidential-data-processing</b></a><br>
